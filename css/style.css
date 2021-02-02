@@ -1,0 +1,65 @@
+.mainBg{
+    
+    width: 400px;
+    margin: 0 auto;
+    height: 600px;
+    position: relative;
+}
+.swiper-wrapper{
+    
+}
+.swiper-slide{
+    
+}
+.swiper-pagination {
+    width:100%;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    margin:0 2px;
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+.swiper-container{
+    background: url(../Images/1.png) no-repeat;
+    background-size: contain;
+    height:inherit;
+    width:330px;
+}
+.cont-box{
+    position: absolute;
+    top: 48px;
+    background: #fff;
+    width: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #fff;
+    height: 505px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.cont-box .googleImg{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.s1 .title{
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+}
+.s1 .title i {
+    padding: 0 5px;
+    font-size:18px;
+}
