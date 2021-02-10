@@ -8,11 +8,12 @@ body * { font-family: NanumGothicCodingR;}
 /* 공통 */
 ul { list-style-type: unset; padding:0;}
 .pRelative{ position:relative;}
-.swiper-btn-wrap{ position: absolute; bottom: 0; height: 50px; width: 100%; background: #000; z-index: 99; left:0; }
+.swiper-btn-wrap{ position: absolute; bottom: 0; height: 35px; width: 83%; background: #000; z-index: 99; left: 50%; transform: translateX(-50%); }
 .description{ font-size:18px; text-align: center; height:170px; word-break: keep-all;}
-.swiper-button-next, .swiper-button-prev { top:25px; color:#fff;}
-.swiper-button-next:after, .swiper-button-prev:after{ width:10vw;}
-.wrap{ min-height: 600px; max-height: 700px; overflow: hidden; position: relative; max-width: 500px; margin: 0 auto;}
+.swiper-button-next { text-align: right;}
+.swiper-button-next, .swiper-button-prev { top:25px; color:#fff; height:35px;}
+.swiper-button-next:after, .swiper-button-prev:after{ width:10vw; font-size:24px;}
+.wrap{ min-height: 600px; max-height: 700px; overflow: hidden; position: relative; max-width: 325px; margin: 0 auto;}
 .bg{ position: absolute; top: 145px; left: 0; width: 100%; background: #fff; }
 .bg img { margin:0 auto; display:block; max-width:100%; }
 .swiper-wrapper{ margin-top:20px; }
